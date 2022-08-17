@@ -1,0 +1,13 @@
+.container-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 3em;
+    width: 100%;
+    height: 100vh;
+}
+
+.texto{
+    text-align: center;
+}

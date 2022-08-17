@@ -6,7 +6,11 @@
     margin: 10px 10px;
     width: 95%;
     max-width: 300px;
-    min-height: 100vh;
+}
+@media (min-width: 1024px){
+    .seccion1{
+        height: 100vh;
+    }
 }
 
 .cont-h1{
@@ -44,12 +48,20 @@ h1{
 .ul-list{
     list-style: none;
     color: white;
+    display: grid;
+    padding: 10px;
+    gap: 40px;
+}
+@media (min-width: 1024px){
+    .ul-list{
+        margin-top: 20px;
+        gap: 50px;
+    }
 }
 
 li{
     font-size: 1.1em;
     font-weight: 400;
-    margin-top: 35px;
     padding-left: 25px;
 }
 
@@ -59,7 +71,7 @@ li:hover{
 @media (min-width: 1024px){
     li{
         font-size: 1.3em;
-        margin-top: 50px;
+        
     }
 }
 
