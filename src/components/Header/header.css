@@ -1,3 +1,4 @@
+/************************************ Empieza Estilos de Header.jsx ************************************/
 header{
     background-color: rgb(0, 0, 0);
     height: 90px;
@@ -9,7 +10,10 @@ header{
     box-shadow: 0 0 1px #fffcf2;
     margin: 0 0 10px 0;
 }
+/************************************ Termina Estilos de Header.jsx ************************************/
 
+
+/************************************ Empieza Estilos de CartWid.jsx ************************************/
 .LogoHary{
     background-color: white;
     max-height: 60px;
@@ -17,6 +21,7 @@ header{
 }
 .LogoHary:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media (min-width: 1024px){
@@ -27,4 +32,6 @@ header{
 
 .carroLogo:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
+/************************************ Termina Estilos de CartWid.jsx ************************************/

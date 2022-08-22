@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import ItemListContainter from './ItemListContainter'
-import '../styles/main.css'
+import './main.css'
 
 const Main = () => {
     return (
