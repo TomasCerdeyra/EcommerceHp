@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './main.css'
+import React, { useState } from 'react';
+import './items.css';
 
 const ItemCount = ({stock, initial, onAdd}) => {
     const [cont, setCont] =useState(1);
@@ -8,14 +8,13 @@ const ItemCount = ({stock, initial, onAdd}) => {
         if (cont > 1) {
             setCont(cont-1)
         }
-    }
+    };
 
     function sumar() {
         if (cont < stock) {
             setCont(cont+1);
         }
-        console.log('sumar');
-    }
+    };
 
     return (
         <div className='contenedorGeneral-contador'>
@@ -27,7 +26,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
             </div>
             <button className='boton-agregarCarrito' onClick={onAdd} >Agregar al carrito</button>
         </div>
-    )
-}
+    );
+};
 
 export default ItemCount

@@ -1,0 +1,66 @@
+.card{
+    /* background-color: azure; */ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+
+.img-card{
+    width: 40%;
+}
+
+.p-card{
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.boton-card{
+    background-color: #3483fa;
+    border-color: transparent;
+    height: 25px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+
+/************************************ Empieza Estilos de itemCont.jsx ************************************/
+.contenedorGeneral-contador{
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: .6em;
+}
+
+.contenedor-contador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.boton-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.boton-agregarCarrito{
+    padding: 10px;
+    font-size: .5em;
+    font-weight: 600;
+}
+
+/************************************ Termina Estilos de itemCont.jsx ************************************/
+

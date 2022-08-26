@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from './NavBar'
-import ItemListContainter from './ItemListContainter'
+import NavBar from './2NavBar'
+import ItemListContainter from './3ItemListContainter'
 import './main.css'
 
 const Main = () => {
