@@ -1,0 +1,26 @@
+.cont-items-details{
+    background-color: white;
+    padding: 1rem;
+}
+.cont-details{
+    display: flex;
+    gap: 2rem;
+}
+
+.img-details{
+    width: 50%;
+}
+
+.cont-tituloDetallos{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+.titulo-details{
+    display: inline;
+}
+
+.detalles{
+    font-size: 1.2em;
+}

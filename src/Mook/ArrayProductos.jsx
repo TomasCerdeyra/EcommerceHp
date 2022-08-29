@@ -6,7 +6,8 @@ export const productos = [
         price: 19,
         categoria: 'Funko Pop',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384056/EcommerHArr/FunkoRon_b6bu2d.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384056/EcommerHArr/FunkoRon_b6bu2d.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     },
 
     {
