@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import './main.css'
-import ItemCount from './Productos-items/ItemCount'
-import { productos } from '../../Mook/ArrayProductos'
-import ItemList from './Productos-items/ItemList'
+import './ItemListContainer.css'
+import ItemCount from '../ItemCount/ItemCount'
+import { productos } from '../../../Mook/ArrayProductos'
+import ItemList from '../ItemList/ItemList'
 
 
 const ItemListContainter = (props) => {

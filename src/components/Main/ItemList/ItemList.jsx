@@ -1,5 +1,6 @@
 import React from 'react'
-import Item from './Item'
+import Item from '../item/Item'
+import './ItemList.css'
 
 const ItemList = ({ items }) => {
     return (

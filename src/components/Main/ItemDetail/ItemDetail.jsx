@@ -1,5 +1,5 @@
 import React from 'react'
-import './details.css'
+import './ItemDetail.css'
 
 const ItemDetail = ({ items }) => {
     console.log(items.descrip);

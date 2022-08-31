@@ -1,5 +1,5 @@
 import React from 'react'
-import './items.css'
+import './Item.css'
 const Item = ({items}) => {
     console.log(items.img);
     return (

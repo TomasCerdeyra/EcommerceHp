@@ -1,0 +1,19 @@
+.container-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    /* background-color: #9c9c9c84; */
+}
+.cont-cards{
+    width: 100%;
+    /* background-color: blue; */
+    display: grid;
+    gap: 4rem;
+    /* grid-auto-rows: 10rem; */
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    grid-column: span 2;
+}

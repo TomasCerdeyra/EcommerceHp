@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { productos } from '../../Mook/ArrayProductos'
-import ItemDetail from './Productos-items-details/ItemDetail';
-import './Productos-items-details/details.css'
+import { productos } from '../../../Mook/ArrayProductos'
+import ItemDetail from '../ItemDetail/ItemDetail'
+import './ItemDetailContainer.css'
 
 const ItemDetailContainer = () => {
     const [items, setItems] = useState([]);
