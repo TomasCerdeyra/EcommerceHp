@@ -59,6 +59,7 @@ li{
     font-size: 1.1em;
     font-weight: 400;
     padding-left: 25px;
+    color: white;
 }
 
 li:hover{
@@ -70,5 +71,9 @@ li:hover{
         font-size: 1.3em;
         
     }
+}
+
+.link-li{
+    text-decoration: none;
 }
 /************************************ Termina Estilos de navBar.jsx ************************************/

@@ -9,11 +9,25 @@
     font-size: 1.2em;
 }
 
+.Cont-itemButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .boton-card{
     background-color: #3483fa;
     border-color: transparent;
-    height: 25px;
+    padding: .2rem;
+    width: 9rem;
     text-decoration: none;
-    margin: 10px;
     color: white;
+}
+
+.link-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+    text-decoration: none;
 }

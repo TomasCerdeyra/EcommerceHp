@@ -3,18 +3,27 @@ import './ItemListContainer.css'
 import ItemCount from '../ItemCount/ItemCount'
 import { productos } from '../../../Mook/ArrayProductos'
 import ItemList from '../ItemList/ItemList'
+import { useParams } from 'react-router-dom'
 
-
-const ItemListContainter = (props) => {
+const ItemListContainter = () => {
     /* Guardo el arreglo de productos en items */
     const [items, setItems] = useState([]);
+
+    const { id } = useParams()
 
     useEffect(() => {
         /* Creo una promesa para agarrar mi array */
         const AgarrarProductos = new Promise((res, rej) => {
+
+            /* Filtro los productos para quedarme con los de cada categoria */
+            const productosFilter = productos.filter( 
+                (produc) => produc.categoria === id
+            );
+
+            /* Hago que con un delay de 1s haga el res, diciendole q si hay una categoria muestre esa */
             setTimeout(() => {
-                res(productos);
-            }, 3000);
+                res(id ? productosFilter : productos);
+            });
         });
 
         AgarrarProductos
@@ -24,7 +33,9 @@ const ItemListContainter = (props) => {
             .catch((error) => {
                 console.log('error');
             });
-    }, []);
+
+        /* Le paso category asi se actualiza cada vez que cambia la categoria */
+    }, [id]);
 
 
     function agregarCarrito() {
@@ -34,9 +45,11 @@ const ItemListContainter = (props) => {
 
     return (
         <section className='container-list'>
-            <div className='cont-cards'>
-                <ItemList items={items} />
-            </div>
+
+                <div className='cont-cards'>
+                    <ItemList items={items} />
+                </div>
+            
 
             {/* <ItemCount
                 stock={5}

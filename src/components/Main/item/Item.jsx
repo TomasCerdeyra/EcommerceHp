@@ -1,12 +1,24 @@
 import React from 'react'
 import './Item.css'
-const Item = ({items}) => {
+import { Link } from 'react-router-dom'
+
+
+const Item = ({ items }) => {
     console.log(items.img);
     return (
         <>
-            <img className='img-card' src={items.img} alt="" />
-            <p className='p-card'>{items.tiltle}</p>
-            <button className='boton-card' >Comprar Ahora</button>
+            <Link className='link-card' to={`/item/${items.id}`}>
+                <img className='img-card' src={items.img} alt="" />
+                <p className='p-card'>{items.tiltle}</p>
+            </Link>
+            <div className='Cont-itemButtons'>
+                <Link to='/comprar'>
+                    <button className='boton-card' >Comprar Ahora</button>
+                </Link>
+                <Link to='/carrito'>
+                    <button className='boton-card' >Agregar Al Carrito</button>
+                </Link>
+            </div>
         </>
     )
 }

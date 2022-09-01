@@ -4,7 +4,7 @@ export const productos = [
         id: 1,
         tiltle: 'Funko Pop Ron Wesleay',
         price: 19,
-        categoria: 'Funko Pop',
+        categoria: 'FunkoPop',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384056/EcommerHArr/FunkoRon_b6bu2d.jpg",
         descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
@@ -14,45 +14,50 @@ export const productos = [
         id: 2,
         tiltle: 'Funko Pop Harry Potter',
         price: 19,
-        categoria: 'Funko Pop',
+        categoria: 'Varitas',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384049/EcommerHArr/FunkoHarry_lksmr6.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384049/EcommerHArr/FunkoHarry_lksmr6.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     },
 
     {
         id: 3,
         tiltle: 'Funko Pop  Hermione Granger',
         price: 20,
-        categoria: 'Funko Pop',
+        categoria: 'Libros',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384023/EcommerHArr/FunkoHermion_xxsyib.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384023/EcommerHArr/FunkoHermion_xxsyib.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     },
 
     {
         id: 4,
         tiltle: 'Funko Pop Dobby',
         price: 25,
-        categoria: 'Funko Pop',
+        categoria: 'Grageas',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384008/EcommerHArr/FunkoDobby_jlmxvb.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384008/EcommerHArr/FunkoDobby_jlmxvb.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     },
 
     {
         id: 5,
         tiltle: 'Funko Pop Severus Snape',
         price: 18,
-        categoria: 'Funko Pop',
+        categoria: 'Accesorios',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384019/EcommerHArr/FunkoSeverus_gaqi38.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384019/EcommerHArr/FunkoSeverus_gaqi38.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     },
 
     {
         id: 6,
         tiltle: 'Funko Pop Lord Voldemort',
         price: 20,
-        categoria: 'Funko Pop',
+        categoria: 'Indumentarias',
         stock: 5,
-        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384018/EcommerHArr/FunkoVolde_vyquju.jpg"
+        img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384018/EcommerHArr/FunkoVolde_vyquju.jpg",
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
     }
 
 ];

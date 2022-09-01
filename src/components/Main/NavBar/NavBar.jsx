@@ -1,5 +1,6 @@
 import React from 'react'
 import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
@@ -12,13 +13,33 @@ const NavBar = () => {
             <aside className="aside-list">
                 <nav>
                     <ul className="ul-list">
-                        <li>Varitas</li>
-                        <li>Libros</li>
-                        <li>Funko Pop</li>
-                        <li>Grageas</li>
-                        <li>Accesorios</li>
-                        <li>Indumentarias</li>
-                        <li>Figuras</li>
+                        <Link className='link-li'  to='/category/Varitas'>
+                            <li>Varitas</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/Libros'>
+                            <li>Libros</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/FunkoPop'>
+                            <li>Funko Pop</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/Grageas'>
+                            <li>Grageas</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/Accesorios'>
+                            <li>Accesorios</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/Indumentarias'>
+                            <li>Indumentarias</li>
+                        </Link>
+
+                        <Link className='link-li' to='/category/Figuras'>
+                            <li>Figuras</li>
+                        </Link>
                     </ul>
                 </nav>
             </aside>
