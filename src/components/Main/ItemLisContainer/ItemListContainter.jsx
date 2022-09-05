@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import './ItemListContainer.css'
-import ItemCount from '../ItemCount/ItemCount'
 import { productos } from '../../../Mook/ArrayProductos'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
@@ -37,25 +36,13 @@ const ItemListContainter = () => {
         /* Le paso category asi se actualiza cada vez que cambia la categoria */
     }, [id]);
 
-
-    function agregarCarrito() {
-        alert('Se agrego el producto al carrito')
-    }
-
-
     return (
         <section className='container-list'>
 
                 <div className='cont-cards'>
                     <ItemList items={items} />
                 </div>
-            
-
-            {/* <ItemCount
-                stock={5}
-                initial={1}
-                onAdd={agregarCarrito}
-            /> */}
+        
         </section>
     )
 }

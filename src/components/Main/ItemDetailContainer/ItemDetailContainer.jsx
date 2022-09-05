@@ -34,9 +34,6 @@ const ItemDetailContainer = () => {
             });
     },[]); 
 
-    console.log(id);
-    console.log(items);
-
     return (
         <div className='cont-items-details'>
             <ItemDetail items={items}/>
