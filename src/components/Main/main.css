@@ -1,10 +1,12 @@
 /* Estilos del main.jsx */
 main{
     width: 100%;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #bebebecb;
 }
 
 @media (min-width: 1024px){

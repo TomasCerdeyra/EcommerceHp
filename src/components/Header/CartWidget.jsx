@@ -11,7 +11,9 @@ const CartWidget = () => {
             <Link to='/'>
                 <img src={logo} alt="Logo Harry potter" className='LogoHary' />
             </Link>
-            <BsCart3 size={50} color='white' className='carroLogo' />
+            <Link to='/cart'>
+                <BsCart3 size={50} color='white' className='carroLogo' />
+            </Link>
         </>
     );
 }

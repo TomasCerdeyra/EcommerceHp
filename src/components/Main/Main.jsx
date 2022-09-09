@@ -4,6 +4,7 @@ import ItemListContainter from './ItemLisContainer/ItemListContainter'
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer'
 import './main.css'
 import { Route, Routes } from 'react-router-dom'
+import Cart from './Cart/Cart'
 
 const Main = () => {
     return (
@@ -23,7 +24,12 @@ const Main = () => {
                 {/* Ruta categoria Productos */}
                 <Route
                     path='/category/:id'
-                    element={<ItemListContainter />} />
+                    element={<ItemListContainter />} 
+                />
+                <Route 
+                    path='/cart'
+                    element={<Cart />}
+                />    
             </Routes>
         </main>
     )

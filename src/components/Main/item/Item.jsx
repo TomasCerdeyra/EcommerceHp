@@ -15,9 +15,10 @@ const Item = ({ items }) => {
                 <Link to='/comprar'>
                     <button className='boton-card' >Comprar Ahora</button>
                 </Link>
-                <Link to='/carrito'>
+                {/* Viendo si ponerlo o no */}
+                {/* <Link to='/cart'>
                     <button className='boton-card' >Agregar Al Carrito</button>
-                </Link>
+                </Link> */}
             </div>
         </>
     )

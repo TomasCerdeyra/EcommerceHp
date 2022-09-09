@@ -7,7 +7,7 @@ export const productos = [
         categoria: 'FunkoPop',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384056/EcommerHArr/FunkoRon_b6bu2d.jpg",
-        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium itaque iste modi nihil quidem cumque voluptate" 
     },
 
     {
@@ -27,7 +27,7 @@ export const productos = [
         categoria: 'Libros',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384023/EcommerHArr/FunkoHermion_xxsyib.jpg",
-        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium itaque iste modi nihil quidem cumque voluptate"
     },
 
     {
@@ -37,7 +37,7 @@ export const productos = [
         categoria: 'Grageas',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384008/EcommerHArr/FunkoDobby_jlmxvb.jpg",
-        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium itaque iste modi nihil quidem cumque voluptate"
     },
 
     {
@@ -47,7 +47,7 @@ export const productos = [
         categoria: 'Accesorios',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384019/EcommerHArr/FunkoSeverus_gaqi38.jpg",
-        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium itaque iste modi nihil quidem cumque voluptate"
     },
 
     {
@@ -57,7 +57,7 @@ export const productos = [
         categoria: 'Indumentarias',
         stock: 5,
         img:"https://res.cloudinary.com/dycggf3sj/image/upload/v1661384018/EcommerHArr/FunkoVolde_vyquju.jpg",
-        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable"
+        descrip: "Figura Funko Pop original de Ron wesleay Coleccionable Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium itaque iste modi nihil quidem cumque voluptate"
     }
 
 ];

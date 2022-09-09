@@ -1,21 +1,36 @@
 /************************************ Empieza Estilos de itemCont.jsx ************************************/
 .contenedorGeneral-contador{
-    border: 2px solid black;
+    grid-area: count;
     padding: 10px;
-    width: 300px;
     display: flex;
     flex-direction: column;
+    align-items:center;
     justify-content: center;
-    align-items: center;
     gap: 20px;
     font-size: .6em;
+    height: 100%;
+}
+@media (min-width: 1024px){
+    .contenedorGeneral-contador{
+        flex-direction: row;
+        border-top: 1px solid #e6e6e6;
+    }
 }
 
 .contenedor-contador{
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+    padding: .2rem;
+}
+@media (min-width: 1024px){
+    .contenedor-contador{
+        width: 30%;
+    }
 }
 
 .boton-cont{
@@ -25,12 +40,31 @@
     width: 30px;
     height: 30px;
     font-size: 30px;
+    color: #3483fa;
+}
+
+.contador-detail{
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 .boton-agregarCarrito{
     padding: 10px;
-    font-size: .5em;
+    color: white;
+    font-size: 1.6em;
     font-weight: 600;
+    background-color: #3483fa;
+    border-radius: 5px;
+    border: none;
 }
+
+@media (min-width: 1024px){
+    .boton-agregarCarrito{
+        width: 11rem;
+        height: 2.7rem;
+    }
+}
+
+
 
 /************************************ Termina Estilos de itemCont.jsx ************************************/
