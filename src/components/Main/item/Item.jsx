@@ -1,10 +1,18 @@
 import React from 'react'
 import './Item.css'
 import { Link } from 'react-router-dom'
+import { cartContext } from '../../../Context/CartContext'
+import { useContext } from 'react'
 
 
 const Item = ({ items }) => {
-    console.log(items.img);
+
+    const {addToCart} = useContext(cartContext)
+
+    const addCart = ()=>{
+
+    }
+
     return (
         <>
             <Link className='link-card' to={`/item/${items.id}`}>

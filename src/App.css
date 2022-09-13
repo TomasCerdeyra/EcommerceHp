@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    height: 100%;
+}
 
 body{
     background-image: url(./assets/fondoposible4.png);
@@ -11,6 +14,5 @@ body{
 }
 
 #root{
-    
 }
 

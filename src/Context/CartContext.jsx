@@ -7,14 +7,14 @@ export const cartContext = createContext();
 
 const CartContext = ({ children }) => {
 
-    //En este hook la lista de productos del carrito
+    //En este hook guardo la lista de productos del carrito
     const [cart, setCart] = useState([]);
 
     //Funcion para agreagr items al carrito(agregar items al hook cart);
     const addToCart = (items, cantidad) => {
         if (isInCart(items.id)) {
             //si elitem esta en cart solo sumarle uno a la cantidad
-            cart.filter(item=> (item.cantidad += cantidad)); 
+            cart.filter(item=> (item.cantidad = cantidad)); 
         }else{
             //sino setear los nuevos items con la cantidad
             setCart([...cart, { ...items, cantidad }]);
@@ -38,12 +38,34 @@ const CartContext = ({ children }) => {
         setCart([]);
     }
 
+    //Funcion para calcular el total del carrito
+    const totalPrice = () =>{
+        let finalPrice = 0;
+        cart.forEach((item) => {
+            finalPrice = finalPrice + (item.price * item.cantidad);
+        } );
+        return finalPrice
+    }
+
+    //Funcion para ver la cantidad de productos que hay en el carrito
+    const totalProducts = () =>{
+        let products = 0;
+        cart.forEach((item)=> {
+            if (item) {
+                products++
+            }
+        })
+        return products
+    }
+
     return (
         <cartContext.Provider value={{ 
             cart,
             addToCart, 
             clear, 
-            removeItem 
+            removeItem,
+            totalPrice,
+            totalProducts 
         }}>
             {children}
         </cartContext.Provider>
