@@ -16,7 +16,6 @@ const ItemListContainter = () => {
 
     //Aagarro el parametro de la categoria seleccionada
     const { id } = useParams()
-    console.log(id);
 
     useEffect(() => {
         //con collection agarro y meto en itemCollection mis productos de firebase
@@ -24,6 +23,7 @@ const ItemListContainter = () => {
         //con el metodo query traigo dos parametros el primero es el collection de mi firebase
         //y el segundo es el metodo where que indica que elemento de mi objeto es y siquiero que sea igual o diferente a lo que le indique en el tercer parametro
 
+        //Funcion para ver si tengo una categoria o no
         const categoria = () => {
             let q, productos
             //si ide no es undefines hago la query para quedarme con el id de la categoria
@@ -77,27 +77,3 @@ const ItemListContainter = () => {
 
 export default ItemListContainter
 
-
-
-/* /* Creo una promesa para agarrar mi array 
-const AgarrarProductos = new Promise((res, rej) => {
-
-    /* Filtro los productos para quedarme con los de cada categoria 
-    const productosFilter = productos.filter(
-        (produc) => produc.categoria === id
-    );
-
-    /* Hago que con un delay de 1s haga el res, diciendole q si hay una categoria muestre esa 
-    setTimeout(() => {
-        res(id ? productosFilter : productos);
-    }, 2000 );
-});
-
-AgarrarProductos
-    .then((data) => {
-        setItems(data);
-        setLouding(false)
-    })
-    .catch((error) => {
-        console.log('error');
-    }); */

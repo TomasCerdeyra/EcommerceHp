@@ -49,12 +49,7 @@ const CartContext = ({ children }) => {
 
     //Funcion para ver la cantidad de productos que hay en el carrito
     const totalProducts = () =>{
-        let products = 0;
-        cart.forEach((item)=> {
-            if (item) {
-                products++
-            }
-        })
+        let products = cart.length;
         return products
     }
 
