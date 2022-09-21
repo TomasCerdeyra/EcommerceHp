@@ -36,24 +36,3 @@ const ItemDetailContainer = () => {
 }
 
 export default ItemDetailContainer
-
-
-/*const AgarrarProducto = new Promise((res) => {
-            /* Filtro los productos para quedarme con el del id 
-            const detallesProduct = productos.find(
-                (producto) => producto.id === ID
-            );
-
-            /* Hago que con un delay de 1s haga el res, diciendole q si hay una categoria muestre esa 
-            setTimeout(() => {
-                res(detallesProduct);
-            });
-        });
-
-        AgarrarProducto
-            .then((data) => {
-                setItems(data);
-            })
-            .catch((error) => {
-                console.log('error');
-            }); */

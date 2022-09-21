@@ -65,7 +65,6 @@ const Cart = () => {
                                     </div>
                                 </>
                                 :
-
                                 <>
                                     <h2 className='titulo-carrito'>Carrito de compra</h2>
                                     <div className='cont-productosCart'>
