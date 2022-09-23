@@ -9,10 +9,6 @@ const Item = ({ items }) => {
 
     const {addToCart} = useContext(cartContext)
 
-    const addCart = ()=>{
-
-    }
-
     return (
         <>
             <Link className='link-card' to={`/item/${items.id}`}>
@@ -24,10 +20,6 @@ const Item = ({ items }) => {
                 <Link to={`/item/${items.id}`}>
                     <button className='boton-card' >Ver Detalles</button>
                 </Link>
-                {/* Viendo si ponerlo o no */}
-                {/* <Link to='/cart'>
-                    <button className='boton-card' >Agregar Al Carrito</button>
-                </Link> */}
             </div>
         </>
     )

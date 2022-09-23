@@ -7,7 +7,7 @@ import './Form.css'
 
 const ContForm = ({ cart, total, clearCart, idOrder }) => {
 
-
+    //Hooks para guardar cada value
     const [nombre, setNombre] = useState('');
     const [apellido, setApellido] = useState('');
     const [mail, setMail] = useState('');
@@ -37,23 +37,17 @@ const ContForm = ({ cart, total, clearCart, idOrder }) => {
 
     //Eventos para agarrar el value de los inputs
     const eventNombre = (event) => {
-        /* console.log(event.target.value); */
         setNombre(event.target.value);
     }
-
     const eventApellido = (event) => {
         setApellido(event.target.value);
     }
-
     const eventMail = (event) => {
         setMail(event.target.value);
     }
-
     const evenTel = (event) => {
         setTel(event.target.value);
     }
-
-
 
     return (
         <div className="contGeneral-Form">
@@ -66,7 +60,6 @@ const ContForm = ({ cart, total, clearCart, idOrder }) => {
                 <button className="ButtonFor" >Enviar</button>
             </form>
         </div>
-
     )
 }
 

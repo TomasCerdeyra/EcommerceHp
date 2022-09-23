@@ -10,11 +10,9 @@ const ItemList = ({ items }) => {
                     return (
                         <div className='card' key={item.id}>
                             <Item items={item} />
-
                         </div>
                     )
                 })
-
             }
         </>
     )

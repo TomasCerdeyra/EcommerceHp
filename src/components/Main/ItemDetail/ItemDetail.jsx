@@ -2,8 +2,7 @@ import React from 'react'
 import './ItemDetail.css'
 import ItemCount from '../ItemCount/ItemCount'
 import { useState } from 'react'
-/* import { Link } from 'react-router-dom' */
-import { useContext } from "react";
+import { useContext } from "react"
 import { cartContext } from '../../../Context/CartContext'
 
 
@@ -32,7 +31,6 @@ const ItemDetail = ({ items }) => {
                     stock={items.stock}
                     onAdd={onAdd}
                 />
-                {/*  <Link to='/cart'> <button className='boton-agregarCarrito'  >Comprar</button> </Link>) */}
         </div>
     )
 }

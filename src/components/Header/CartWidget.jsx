@@ -5,7 +5,6 @@ import logo from '../../assets/logoHarry.png';
 import { Link } from 'react-router-dom';
 import { cartContext } from '../../Context/CartContext';
 import { useContext } from 'react';
-import { useState } from 'react';
 
 const CartWidget = () => {
     const { totalProducts } = useContext(cartContext);
@@ -20,8 +19,6 @@ const CartWidget = () => {
                 {
                     totalProducts()>=1 &&<span className= 'cantCart' >x{totalProducts()}</span>
                 }
-
-
             </Link>
         </>
     );

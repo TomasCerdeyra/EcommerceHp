@@ -1,9 +1,6 @@
-
 import { initializeApp } from "firebase/app";
-
 //importo el metodo getFirebase
 import { getFirestore } from "firebase/firestore";
-
 
 const firebaseConfig = {
     apiKey: "AIzaSyBLC3zA_9A-M345U2ajskzsC5apPoVBKeU",
@@ -13,7 +10,6 @@ const firebaseConfig = {
     messagingSenderId: "178747410873",
     appId: "1:178747410873:web:77e1b41af0afc0ef370e68"
 };
-
 
 const app = initializeApp(firebaseConfig);
 

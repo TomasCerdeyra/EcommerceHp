@@ -26,7 +26,7 @@ const ItemListContainter = () => {
         //Funcion para ver si tengo una categoria o no
         const categoria = () => {
             let q, productos
-            //si ide no es undefines hago la query para quedarme con el id de la categoria
+            //si id no es undefines hago la query para quedarme con el id de la categoria
             if (id !== undefined) {
                 q = query(itemCollection, where("categoria", "==", id));
             }
@@ -60,7 +60,6 @@ const ItemListContainter = () => {
 
     return (
         <section className='container-list'>
-
             {
                 loding ? <RingLoader color='hsla(58, 67%, 53%, 1)' size={100} />
                     :
@@ -70,7 +69,6 @@ const ItemListContainter = () => {
                         </div>
                     </>
             }
-
         </section>
     )
 }
