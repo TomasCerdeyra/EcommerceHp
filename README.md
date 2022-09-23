@@ -1,6 +1,6 @@
 # Ecommerce usando React Js y Firebase, con tematica Harry Potter!!
 
-## :tw-1f4dc: Descripción:
+## 📜 Descripción:
 
 - Ecommerce con tematica de Harry Potter donde se pueden comprar productos variados de la saga, desde varitas y libros hasta hasta accesorios y figuras coleccionables.
 
@@ -10,7 +10,7 @@
 
 - El trabajo se realizo para demostrar lo aprendido a lo largo del curso React Js de CoderHouse.
 
-## :tw-1f501: Funcionalidades:
+## 🔁 Funcionalidades:
 
    1- Botones de las Categorias de los articulos: Cada uno de ellos te lleva a la categoria   correspondiente mostrando los productos que hay.
    
@@ -40,7 +40,7 @@
 
 
 
-## :tw-1f517: Liks:
+## 🔗 Liks:
 
 - Para ver el proyecto: https://react-coder-omega.vercel.app/
 
@@ -52,10 +52,10 @@
 
    3- npm start
 
-## :tw-1f450: Ayuda, Dudas y Consultas:
+## 🤝 Ayuda, Dudas y Consultas:
  - Linkedin: https://www.linkedin.com/in/tomas-cerdeyra-007b01234/
  
  - Mail: Tomascerdeyra02@gmail.com
 
-## :tw-1f466: Autor: Tomas Cerdeyra
+## 🧒 Autor: Tomas Cerdeyra
 
