@@ -27,7 +27,7 @@ const ContForm = ({ cart, total, clearCart, idOrder }) => {
         //Creo la nueva seccion de ordenes
         const ordereCollection = collection(dataBase, 'orders')
 
-        //Con este metodo lo pusheo a firebase, nos da una promesa, lo resuelvo
+        //Con este metodo lo pusheo a firebase
         addDoc(ordereCollection, order)
             .then((res) => {
                 idOrder(res.id);
@@ -63,7 +63,7 @@ const ContForm = ({ cart, total, clearCart, idOrder }) => {
                 <Form type="text" nombre="Apellido" onSubmit={eventApellido} />
                 <Form type="email" nombre="Mail" onSubmit={eventMail} />
                 <Form type="tel" nombre="Tel" onSubmit={evenTel} />
-                <button>Enviar</button>
+                <button className="ButtonFor" >Enviar</button>
             </form>
         </div>
 

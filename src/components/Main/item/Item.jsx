@@ -18,10 +18,11 @@ const Item = ({ items }) => {
             <Link className='link-card' to={`/item/${items.id}`}>
                 <img className='img-card' src={items.img} alt="" />
                 <p className='p-card'>{items.tiltle}</p>
+                <p style={{color: 'black', fontSize: '1.1em'}} >${items.price}</p>
             </Link>
             <div className='Cont-itemButtons'>
-                <Link to='/comprar'>
-                    <button className='boton-card' >Comprar Ahora</button>
+                <Link to={`/item/${items.id}`}>
+                    <button className='boton-card' >Ver Detalles</button>
                 </Link>
                 {/* Viendo si ponerlo o no */}
                 {/* <Link to='/cart'>

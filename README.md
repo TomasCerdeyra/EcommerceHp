@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Ecommerce usando React Js y Firebase, con tematica Harry Potter!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :tw-1f4dc: Descripción:
 
-## Available Scripts
+- Ecommerce con tematica de Harry Potter donde se pueden comprar productos variados de la saga, desde varitas y libros hasta hasta accesorios y figuras coleccionables.
 
-In the project directory, you can run:
+- La pagina cuenta con siete secciones para navegar y cada una de ellas con sus respectivos productos.
 
-### `npm start`
+- El proyecto cuenta con estas librerias: React Router Dom para el enrutado de la pagina,FireBase como base de datos para las compras, Reacts Spinners.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- El trabajo se realizo para demostrar lo aprendido a lo largo del curso React Js de CoderHouse.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##:tw-1f501: Funcionalidades:
 
-### `npm test`
+   1- Botones de las Categorias de los articulos: Cada uno de ellos te lleva a la categoria   correspondiente mostrando los productos que hay.
+   
+   2- Boton ver detalle: para ver los detalles del producto( Imagen, Descripccion, Precio, Stock)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+######En el detalle del producto:
 
-### `npm run build`
+3-Contador: para que el usuario elija la cantidad del producto quiere
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4- Boton Agregar al Carrito: para que se guarde el producto y sus valores elegidos en el carrito
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+######El el carrito:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5- Funciones para sumar el precio total de los producto y la canatidad que hay en el carrito 
 
-### `npm run eject`
+6- Boton para eliminar un producto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7- Boton para eliminar todos los productos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8- Boton para termianr la compra: para llevarte a un formulario y concluir la compra agregando los datos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+######En el formulario:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9- Boton enviar: para enviar a la base de datos los datos de usiario y devolverle su ID de compa 
 
-## Learn More
+10- Boton volver al carrito
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+##:tw-1f517: Liks:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Para ver el proyecto: https://react-coder-omega.vercel.app/
 
-### Analyzing the Bundle Size
+- Si sos desarrollador y te gurstaria levantar el proyecto localmente en tu consola usa: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    1-"git clone https://github.com/TomasCerdeyra/EcommerceHp" 
 
-### Making a Progressive Web App
+   2- npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   3- npm start
 
-### Advanced Configuration
+##:tw-1f450: Ayuda, Dudas y Consultas:
+ - Linkedin: https://www.linkedin.com/in/tomas-cerdeyra-007b01234/
+ 
+ - Mail: Tomascerdeyra02@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##:tw-1f466: Autor: Tomas Cerdeyra
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

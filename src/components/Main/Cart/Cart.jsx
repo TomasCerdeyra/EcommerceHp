@@ -61,7 +61,7 @@ const Cart = () => {
                                     <h2 className='titulo-carrito'>Tu compra casi esta lista!!</h2>
                                     <ContForm cart={cart} total={totalPrice} clearCart={clear} idOrder={idOrder} />
                                     <div className='contButton-deleteAll'>
-                                        <button className='deleteAll-button'  onClick={eliminarFomr} >Volver</button>
+                                        <button className='deleteAll-button'  onClick={eliminarFomr} >Volver al Carrito</button>
                                     </div>
                                 </>
                                 :

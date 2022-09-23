@@ -32,5 +32,12 @@ header{
 .carroLogo:hover{
     transform: scale(1.1);
     cursor: pointer;
+    text-decoration: none;
 }
 /************************************ Termina Estilos de CartWid.jsx ************************************/
+
+.cantCart{
+    color: rgb(127, 127, 127);
+    font-size: 1em;
+}
+
